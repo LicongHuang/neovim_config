@@ -1,0 +1,28 @@
+:set number
+:set autoindent
+:set tabstop=4
+:set smarttab
+:set softtabstop=4
+:set mouse=a
+
+call plug#begin()
+
+Plug 'http://github.com/vim-airline/vim-airline'
+Plug 'http://github.com/preservim/nerdtree'
+Plug 'https://github.com/tc50cal/vim-terminal' " Vim Terminal
+Plug 'https://github.com/neoclide/coc.nvim'  " Auto Completion
+Plug 'https://github.com/rafi/awesome-vim-colorschemes' " Retro Scheme
+
+
+
+call plug#end()
+
+" Hotkeys
+nnoremap <C-f> :NERDTreeFocus<CR>
+nnoremap <C-n> :NERDTree<CR>
+nnoremap <C-t> :NERDTreeToggleSplit<CR>
+nnoremap <A-w> :TerminalSplit bash<CR>
+nnoremap <S-Right> :tabn<CR>
+nnoremap <S-Left> :tabp<CR>
+" To install Coc lip for languages
+" Use CocInstall <language>

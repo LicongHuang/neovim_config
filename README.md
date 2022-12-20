@@ -1,7 +1,11 @@
 # Personal shortcuts
+
 Ctrl+Left/Right : move between tabs
+
 Alt+W :create a terminal
-Ctrl+W+<arrow> : move between vim partitions
+
+Ctrl+W+"arrow" : move between vim partitions
+
 Ctrl+f : create a file directory
 
 
